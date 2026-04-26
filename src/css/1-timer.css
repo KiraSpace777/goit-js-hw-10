@@ -1,0 +1,102 @@
+/* ===== TIMER DATA SELECT ===== */
+.datetime-picker {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+
+  margin-right: 8px;
+  margin-top: 54px;
+  padding-left: 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+}
+
+.datetime-picker:disabled {
+  border: 1px solid #808080;
+  color: #808080;
+  background-color: #f5f5f5;
+  cursor: not-allowed !important;
+}
+
+.datetime-picker:active {
+  border: 1px solid #4e75ff;
+}
+
+.datetime-picker:hover,
+.datetime-picker:focus {
+  border: 1px solid #4e75ff;
+  /* border: 1px solid #000; */
+  cursor: pointer;
+}
+
+.datetime-btn {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 75px;
+  height: 40px;
+
+  padding: 8px 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4e75ff;
+  border-color: #416afc;
+}
+
+.datetime-btn:disabled {
+  color: #989898;
+  background: #cfcfcf;
+  border-color: #cfcfcf;
+  cursor: not-allowed; /* Показує, що натиснути неможливо */
+}
+
+.datetime-btn:not(:disabled):hover,
+.datetime-btn:not(:disabled):focus {
+  background: #6c8cff;
+  cursor: pointer;
+}
+
+/* ===== TIMER COUNTER ===== */
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
